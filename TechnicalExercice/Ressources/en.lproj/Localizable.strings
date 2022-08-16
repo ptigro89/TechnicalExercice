@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  TechnicalExercice
+
+  Created by Lambert Florent on 16/08/2022.
+  
+*/
+
+"search_league_placeholder" = "Search by league";
+"search_league_title" = "Teams";
