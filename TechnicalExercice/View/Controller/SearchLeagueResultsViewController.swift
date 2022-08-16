@@ -10,7 +10,6 @@ import UIKit
 
 class SearchLeagueResultsViewController: UIViewController {
   
-  private static let storyboardIdentifier = "SearchLeagueResults"
   private let tableViewCellIdentifier = "ResultTableViewCellIdentifier"
   
   private var presenter: SearchLeagueResultsPresenter?

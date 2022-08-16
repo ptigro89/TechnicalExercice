@@ -11,8 +11,6 @@ import AlamofireImage
 
 class TeamDetailsViewController: UIViewController {
   
-  private static let storyboardIdentifier = "DetailsTeam"
-  
   private var presenter: TeamDetailsPresenter?
   
   @IBOutlet weak var loadingActivityIndicator: UIActivityIndicatorView!
