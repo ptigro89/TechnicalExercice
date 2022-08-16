@@ -49,8 +49,6 @@ extension TechnicalExerciceTests: SearchLeagueViewDelegate {
   }
   
   func selectTeam(with presenter: TeamDetailsPresenter) {
-    XCTAssertTrue(presenter.teamIdentifier == TestDefaultValue.Team.ajaccio.identifier)
-    
     teamDetailsPresenter = presenter
     teamDetailsPresenter?.teamDetailsViewDelegate = self
     
